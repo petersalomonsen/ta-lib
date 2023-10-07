@@ -67,3 +67,5 @@ Session.vim
 
 # Never ignore .gitkeep files
 !**/.gitkeep
+
+*.wasm
