@@ -69,3 +69,5 @@ Session.vim
 !**/.gitkeep
 
 *.wasm
+ta-lib.js
+ta-lib.asm.js
