@@ -17,4 +17,4 @@ tasks:
       emconfigure ./configure
       emmake make
       emcc  -s EXPORTED_FUNCTIONS='["_malloc","_TA_SMA","_TA_EMA","_TA_STDDEV"]' -sWASM=0 src/.libs/libta_lib.a -o ta-lib.asm.js
-      emcc  -s EXPORTED_FUNCTIONS='["_malloc","_TA_SMA","_TA_EMA","_TA_STDDEV"]' -sWASM=0 src/.libs/libta_lib.a -o ta-lib.js
+      emcc  -s EXPORTED_FUNCTIONS='["_malloc","_TA_SMA","_TA_EMA","_TA_STDDEV"]' src/.libs/libta_lib.a -o ta-lib.js
